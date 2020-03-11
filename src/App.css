@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+.header-color {
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid {
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* project page css */
+.projects-grid {
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* contact page css */
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-pic {
+    height: 250px;
+}
+.contact-text {
+    width: 75%;
+    margin: auto;
+    padding-top: 1em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-grid hr {
+    border-top: 4px dotted black;
+    width: 50%;
+    margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-pic {
+    height: 250px;
+    padding: 5em;
+}
+
+.contact-list i {
+    font-size: 50px;
+    padding-right: 5rem;
+
+}
+
+/* contact page css above this line */
+
+/* resume page css */
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+}
+.resume-pic {
+    height: 200px;
+}
+
+/* resume page css */
+
+.banner-text {
+    background-color: black;
+    opacity: o.8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text P {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 4em;
+    padding: 8px;
 }
