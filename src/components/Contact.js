@@ -13,8 +13,7 @@ class Contact extends Component {
                             src={ dipen } className="contact-pic" alt= "dipen"
                         />
                         <p className="contact-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Please feel free to contact me for more information.
                         </p>
                     </Cell>
                     <Cell col={6}>

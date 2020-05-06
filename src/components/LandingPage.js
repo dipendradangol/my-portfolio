@@ -14,7 +14,6 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Web Developer</h1>
                             <hr />
-
                             <p>HTML | CSS | JavaScript | ReactJs | WordPress | REST API | PHP | MYSQL </p>
                             <div className="social-links">
 

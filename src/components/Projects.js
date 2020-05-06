@@ -20,7 +20,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -36,7 +35,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -52,7 +50,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -74,7 +71,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -90,7 +86,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -106,7 +101,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -127,7 +121,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -143,7 +136,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -159,7 +151,6 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>

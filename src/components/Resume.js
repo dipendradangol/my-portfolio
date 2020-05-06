@@ -20,10 +20,8 @@ class Resume extends Component {
                         <h4 style={{color: 'grey'}}> Web Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                         <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it
+                            I am an aspiring software developer who is looking for an open and dynamic environment to implement my newly acquired skill sets of web development.
+                            I am excited for what my future career brings and this is the perfect opportunity for me to develop my career in software development.
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                         <h5>Address</h5>
