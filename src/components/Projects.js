@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+// import { Redirect } from 'react-router-dom';
+
 
 export class Projects extends Component {
     constructor(props) {
@@ -13,14 +15,13 @@ export class Projects extends Component {
                 <div className="projects-grid">
                     {/** Project card 1 */}
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>React Project #1</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Expense Tracker</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Expense tracker calculate income and expenses. Shows the current balance. 
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored><a href="https://github.com/dipendradangol/expense-tracker" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://income-expense.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -64,14 +65,13 @@ export class Projects extends Component {
                 <div className="projects-grid">
                     {/** Project card 1 */}
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>JavaScript Project #1</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>ToDo-List App</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            A todo list project in vanilla JS using fundamental JavaScript techniques including local storage.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored><a href="https://github.com/dipendradangol/Todo-Listr" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://tasks-todo.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
