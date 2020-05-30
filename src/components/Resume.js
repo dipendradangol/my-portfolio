@@ -64,8 +64,8 @@ class Resume extends Component {
                          <hr style={{borderTop: '3px solid #833fb2'}} />
                         <h2>Experience</h2>
                         <Experience 
-                            startYear={2019.10}
-                            endYear={2019.12}
+                            startYear={2019.09}
+                            endYear={2019.11}
                             jobName="Internship at citiscope.io"
                             jobDescription=" - Building website and web hosting"
                             jobTitle=" - Research on Helsinki open data for the company"
