@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import dipen from '../dipen.jpg';
+import protrait from '../protrait.jpg';
 
 class LandingPage extends Component {
     render() {
@@ -9,7 +9,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src={ dipen } className="profile-pic" alt= "dipen"
+                            src={ protrait } className="profile-pic" alt= "dipen"
                         />
                         <div className="banner-text">
                             <h1>Web Developer</h1>

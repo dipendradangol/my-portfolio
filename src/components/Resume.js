@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import dipen from '../dipen.jpg';
+import protrait from '../protrait.jpg';
 import Education from './Education';
 import Experience from './Experience';
 import Skill from './Skill';
@@ -13,7 +13,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: "center"}}>
                             <img
-                                src={ dipen } className="resume-pic" alt= "dipen"
+                                src={ protrait } className="resume-pic" alt= "dipen"
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Dipendra Dangol</h2>
@@ -31,7 +31,7 @@ class Resume extends Component {
                         <h5>E-mail</h5>
                         <p>dipendra.dangol11@gmail.com </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <h4 style={{color: 'grey'}}> Technical Skills</h4>
+                        <h4 style={{color: 'grey'}}>Other Technical & Communication Skills</h4>
                         <p>
                             <ul>
                                 <li>Github</li>
@@ -39,8 +39,9 @@ class Resume extends Component {
                                 <li>Trello</li>
                                 <li>Slack</li>
                                 <li>Canva</li>
-                                <li>Bash Scripting </li>
+                                <li>Git Bash</li>
                                 <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
                             </ul>
                         </p>
 

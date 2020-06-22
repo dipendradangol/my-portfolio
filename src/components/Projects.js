@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import Weather from "./assets/images/weather.png";
 import Expenses from "./assets/images/expenses.png";
-import Covid from "./assets/images/covid_img.jpg";
+import Meme from "./assets/images/memeit.png";
 import Todo from "./assets/images/todo_img.jpg";
 import SnakeGame from "./assets/images/nokia-snake.jpg";
 
@@ -33,13 +33,13 @@ export class Projects extends Component {
                     </Card>
                     {/** Project card 2 */}
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background:`url(${Weather}) center/cover`}}>Weather App</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background:`url(${Weather}) center/cover`}}>PWA Weather App</CardTitle>
                         <CardText>
-                            Weather app in ReactJs, using Open Weather API to make calls to a restful api to return current weather data
+                            Progressive Weather app in ReactJs, using Open Weather API to make calls to a restful api to return current weather data. It can easily add to home screen in mobile devices as native app.
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://github.com/dipendradangol/weather-app" target="_blank" rel="noopener noreferrer">Github</a></Button>
-                            <Button colored><a href="https://weather-outside.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
+                            <Button colored><a href="https://github.com/dipendradangol/weather-pwa" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://uptodateweather.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -47,14 +47,13 @@ export class Projects extends Component {
                     </Card>
                     {/** Project card 3 */}
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: `url(${Covid}) center / cover`}}>Covid Tracker</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: `url(${Meme}) center / cover`}}>**PWA Meme</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Progressive web app to create meme app in reactjs, using imgflip API that generate meme images. With this app you can create your own meme by writing text. Since this app in is PWA you can add to home screen in mobile device. This app also performs regardless to the poor internet/no internet.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                        <Button colored><a href="https://github.com/dipendradangol/meme-generator" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://memeit.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
