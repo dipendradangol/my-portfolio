@@ -5,6 +5,7 @@ import Expenses from "./assets/images/expenses.png";
 import Meme from "./assets/images/memeit.png";
 import Todo from "./assets/images/todo_img.jpg";
 import SnakeGame from "./assets/images/nokia-snake.jpg";
+import MyPage from "./assets/images/mypage.png";
 
 console.log(Weather)
 export class Projects extends Component {
@@ -49,7 +50,9 @@ export class Projects extends Component {
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: `url(${Meme}) center / cover`}}>**PWA Meme</CardTitle>
                         <CardText>
-                            Progressive web app to create meme app in reactjs, using imgflip API that generate meme images. With this app you can create your own meme by writing text. Since this app in is PWA you can add to home screen in mobile device. This app also performs regardless to the poor internet/no internet.
+                            Progressive web app to create meme app in reactjs, using imgflip API that generate meme images. 
+                            With this app you can create your own meme by writing text. Since this app in is PWA you can add to home screen in mobile device. 
+                            This app also performs regardless to the poor internet/no internet.
                         </CardText>
                         <CardActions border>
                         <Button colored><a href="https://github.com/dipendradangol/meme-generator" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -81,13 +84,13 @@ export class Projects extends Component {
                     </Card>
                     {/** Project card 2 */}
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: `url(${SnakeGame}) center / cover`}}>Snake Game App</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: `url(${MyPage}) center / cover`}}>Modern Portfolio</CardTitle>
                         <CardText>
-                            The iconic snake game using JavaScript to code this fun game. I use object orientated approac to build this game.
+                            My portforlio website is responsive in all devices, using modern technologies such as HTML5, Sass, NPM pacakage manager, Javascript.
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://github.com/dipendradangol/snake-app" target="_blank" rel="noopener noreferrer">Github</a></Button>
-                            <Button colored><a href="https://snakegameplus.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
+                            <Button colored><a href="https://github.com/dipendradangol/responsivePortfolio" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://dipendradangol.github.io/responsivePortfolio/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -95,14 +98,13 @@ export class Projects extends Component {
                     </Card>
                     {/** Project card 3 */}
                     <Card shadow={5} style={{minwidth: '450px', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>JavaScript Project #3</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: `url(${SnakeGame}) center / cover`}}>Snake Game App</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            The iconic snake game using JavaScript to code this fun game. I use object orientated approac to build this game.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored><a href="https://github.com/dipendradangol/snake-app" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://snakegameplus.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
