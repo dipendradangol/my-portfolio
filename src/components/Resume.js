@@ -40,6 +40,7 @@ class Resume extends Component {
                                 <li>Slack</li>
                                 <li>Canva</li>
                                 <li>Git Bash</li>
+                                <li>Figma</li>
                                 <li>Adobe Photoshop</li>
                                 <li>Adobe Illustrator</li>
                             </ul>
