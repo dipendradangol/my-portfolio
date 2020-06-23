@@ -18,11 +18,11 @@ class LandingPage extends Component {
                             <div className="social-links">
 
                                 {/* LinkedIn */}
-                                <a href="https://www.linkedin.com/in/dipendra-dangol-2a405616a/" rel="noopener onreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/dipendra-dangol-2a405616a/" target="_blank" rel="noopener onreferrer">
                                     <i class="fa fa-linkedin" aria-hidden="true" />
                                 </a>
                                 {/* Github */}
-                                <a href="https://github.com/dipendradangol" rel="noopener onreferrer" target="_blank">
+                                <a href="https://github.com/dipendradangol" target="_blank" rel="noopener onreferrer">
                                     <i class="fa fa-github-square" aria-hidden="true" />
                                 </a>
                             </div>
